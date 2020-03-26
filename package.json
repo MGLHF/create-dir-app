@@ -1,0 +1,25 @@
+{
+  "name": "@tianbo/make-cli",
+  "version": "1.0.18",
+  "description": "node微前端项目文件夹快速创建",
+  "main": "index.js",
+  "bin": {
+    "make-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "inquirer": "^7.1.0",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
+    "log-symbols": "^3.0.0",
+    "nodemon": "^2.0.2",
+    "ora": "^4.0.3"
+  }
+}
