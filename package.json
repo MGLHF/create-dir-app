@@ -1,6 +1,6 @@
 {
   "name": "create-dir-app",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "bo-cli脚手架创建的微前端项目文件夹快速创建",
   "main": "index.js",
   "bin": {
