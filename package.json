@@ -1,7 +1,7 @@
 {
   "name": "create-dir-app",
-  "version": "1.0.18",
-  "description": "node微前端项目文件夹快速创建",
+  "version": "1.0.19",
+  "description": "bo-cli脚手架创建的微前端项目文件夹快速创建",
   "main": "index.js",
   "bin": {
     "create-dir-app": "index.js"
