@@ -1,11 +1,12 @@
 {
   "name": "create-dir-app",
-  "version": "1.0.20",
+  "version": "1.1.0",
   "description": "bo-cli脚手架创建的微前端项目文件夹快速创建",
   "main": "index.js",
   "bin": {
     "create-dir-app": "index.js"
   },
+  "keywords": ["微前端", "react", "vue", "前端"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
