@@ -43,9 +43,9 @@ program.version('1.0.0', '-v, --version')
           console.log(`${chalk.bgWhite.red('注意:请在single-spa.config.js文件中appConfig下添加如下代码')}`);
           console.log(`${chalk.white(`
             {
-            '${answers.spaname}',
-            () => import('./${answers.dirname}/main.config'),
-            location => location.pathname.startsWith('/${answers.route}'),
+            name: '${answers.spaname}',
+            entryPath: () => import('./${answers.dirname}/main.config'),
+            routerRule: location => location.pathname.startsWith('/${answers.route}'),
             }
           `)}`);
         }).catch(() => {
