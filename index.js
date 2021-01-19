@@ -40,13 +40,13 @@ program.version('1.0.0', '-v, --version')
         buildTemplate(answers).then(() => {
           spinner.stop();
           console.log(`${symbols.success} ${chalk.green('文件夹创建完成')}`);
-          console.log(`${chalk.bgWhite.red('注意:请在single-spa.config.js文件中添加如下代码')}`);
+          console.log(`${chalk.bgWhite.red('注意:请在single-spa.config.js文件中appConfig下添加如下代码')}`);
           console.log(`${chalk.white(`
-          registerApplication(
+            {
             '${answers.spaname}',
             () => import('./${answers.dirname}/main.config'),
             location => location.pathname.startsWith('/${answers.route}'),
-          );
+            }
           `)}`);
         }).catch(() => {
           spinner.stop();
